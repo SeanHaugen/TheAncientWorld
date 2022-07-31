@@ -1,0 +1,9 @@
+body {
+    height: auto;
+}
+.img-container {
+    background-image: url("../images/ancient_map.PNG");
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -3,5 +3,39 @@
 }
 
 body {
-    background-color: rgb(148, 0, 0);
+    background-color: #e91215;
+    font-family: 'Cinzel', serif;
 }
+
+nav {
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
+
+ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+
+
+
+li {
+    list-style: none;
+}
+

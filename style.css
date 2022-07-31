@@ -28,8 +28,12 @@ main {
     font-size: 16px;
     display: flex;
     flex-flow: column wrap;
+ 
+}
+
+.airtable-embed {
+    align-self: center;
     width: 80%;
-    justify-content: center;
 }
 
 

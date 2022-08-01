@@ -37,7 +37,10 @@ main {
 .airtable-embed {
     align-self: center;
     width: 80%;
+    height: 80vh;
 }
+
+
 
 h2, h3{
     text-align: center;

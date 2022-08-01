@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     
-    <scrip src="./script.js"></scrip>
+    <script src="./script.js"></script>
     <title>The Ancient World</title>
 </head>
 <body>
@@ -17,6 +17,7 @@
             <ul>
                 <li><a href="./index.html"> Home</a></li>
                 <li><a href="./pages/map.html"> Maps</a></li>
+                <li><a href="./pages/NPC.html"> Add</a></li>
             </ul>
         </nav>
     </head>
@@ -26,11 +27,26 @@
         <h3>People</h3>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shrDs9sgVs1F8bVsi?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-        <h3>locations</h3>
-        <button><a href="./pages/map.html" onclick="click" class="map"></a>Map</button>
+        <h3 class="locations ">locations</h3>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shrEP1qln4SKhGRYW?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         <h3>Quests</h3>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shr7DzuAA0jwQUnue?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        <br>
+        <!-- <section id="main">
+            <div class = "create character">
+                <h2>Add a Character</h2>
+                \ <form action="./pages/NPC.html" method="GET">
+                    <label for="name-1">Name: </label>
+                    <input id="name-1" name="name-1" type="text">
+                    <br>
+                    <label for="description">About: </label>
+                    <input id="description" name="description" rows="4" cols="10">
+                    <br>
+                    <input type="submit" value="create NPC!">
+                </form> \            
+
+            </div> -->
+        </section>
     </main>
 </body>
 </html>

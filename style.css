@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #e91215;
+    background: linear-gradient( rgba(233,18,21,1) 20%, rgba(7,179,181,1) 78%);
     font-family: 'Cinzel', serif;
 }
 

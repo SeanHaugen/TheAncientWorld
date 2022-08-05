@@ -1,5 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: whitesmoke;
+    padding: 1em;
+    height: 10em;
+    margin-bottom: 5em;
+}
+
+
+ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+main {
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+ 
+}
+
+.airtable-embed {
+    align-self: center;
+    width: 80%;
+    height: 80vh;
+}
+
+
+
+h2, h3{
+    text-align: center;
+}
+
+
+
+
+li {
+    list-style: none;
+}
+
 body {
     height: auto;
+    background: linear-gradient( rgba(233,18,21,1) 20%, rgba(7,179,181,1) 78%);
+    font-family: 'Cinzel', serif;
 }
 .img-container {
     background-image: url("../images/ancient_map.PNG");
@@ -7,3 +60,4 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+

@@ -16,12 +16,12 @@ console.log(toHit(10))
 
 
 
-//let button = document.querySelector('#button');
-//let image = document.querySelector('#img')
+let button = document.querySelector('#button');
+let image = document.querySelector('#img')
 
-//button.addEventListener('click', ()=> {
-//    image.classList.toggle('reveal');
-//})
+button.addEventListener('click', ()=> {
+    image.classList.toggle('reveal');
+})
 
 
 

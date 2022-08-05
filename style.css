@@ -58,3 +58,33 @@ button {
     
 }
 
+
+
+  #button{
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: auto;
+    background: black;
+    color: white;
+    box-shadow: 0px 0px 15px rgb(134, 134, 134);
+  }
+  
+  #button:hover{
+    background: #DFF30B;
+  }
+
+
+  .hide{
+    display: none;
+
+  }
+  
+  .reveal{
+    display: block;
+  }
+
+  

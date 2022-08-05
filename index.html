@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     
-    <script src="./script.js"></script>
+    <script  type="module" src="script.js"></script>
+    <script type="module" src="helper.js"></script>
     <title>The Ancient World</title>
 </head>
 <body>
     <head>
         <nav>
-            <h1> The Ancient World</h1>
+            <h1 class="title"> The Ancient World</h1>
             <ul>
                 <li><a href="./index.html"> Home</a></li>
                 <li><a href="./pages/map.html"> Maps</a></li>
@@ -21,13 +22,17 @@
             </ul>
         </nav>
     </head>
-
+    <div id="playbtn"
     <main>
         <h2>Rome</h2>
         <h3>People</h3>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shrDs9sgVs1F8bVsi?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
         <h3 class="locations ">locations</h3>
+        <div id="img" class="hide">
+            <img src="./images/ancient-rome-city-map.jpg" alt="The city map of ancient Rome" width="1200" height="1067" >
+        </div>
+        <div id="button" onclick="click">Map of Rome</div>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shrEP1qln4SKhGRYW?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         <h3>Quests</h3>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shr7DzuAA0jwQUnue?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>

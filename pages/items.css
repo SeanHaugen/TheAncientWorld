@@ -1,0 +1,69 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+body {
+    background: linear-gradient( rgba(233,18,21,1) 20%, rgba(7,179,181,1) 78%);
+    font-family: 'Cinzel', serif;
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: 1em;
+    height: 10em;
+    margin-bottom: 5em;
+}
+
+
+ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+main {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex-shrink: inherit;
+  
+ 
+}
+
+.airtable-embed {
+    width: 80%;
+    height: 80vh;
+}
+
+.table {
+    width: 100%;
+}
+
+
+
+.table.two {
+    width: 40%;
+}
+
+
+h2, h3{
+    text-align: center;
+}
+
+.table.two {
+    width: 40%;
+}
+
